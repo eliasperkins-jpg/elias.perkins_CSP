@@ -32,12 +32,10 @@ red = input("What is your eyecolor?\n")
 
 print("Wow I have never met someone with" , red , "eyes")
 
-input()
+fivehundred = input("how old are you?\n")
 
-print(whatisyourage)
+print("You currently are" , fivehundred , "years old")
 
-input()
+math = input("what is your favorite class?\n")
 
-print(whatisyourfavoritesubjectinschool)
-
-input()
+print("I like" , math , "too")
