@@ -20,17 +20,17 @@ violet = input("what is your favorite color\n")
 
 print("Really" , violet , "thats fun")
 
-UCAS = input()
+UCAS = input("what is the name of your school\n")
 
-print(whatistheschoolsname)
+print("You go to" , UCAS)
 
-input()
+years = input("what is the current year\n")
 
-print(whatistheyear)
+print("REALLY IM THAT OLD! IS IT REALLY" , years)
 
-input()
+red = input("What is your eyecolor?\n")
 
-print(youreyecolor)
+print("Wow I have never met someone with" , red , "eyes")
 
 input()
 
