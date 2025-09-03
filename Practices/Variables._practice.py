@@ -2,7 +2,7 @@
 
 name = input("what is your name\n")
 
-print("Hello", name)
+print("Hello" , name)
 
 number1 = input("what is a number between 1 and 10\n")
 
@@ -12,15 +12,15 @@ number2 = input("what is a number between 100 and 1000\n")
 
 print("you currently have" , number2 , "baby bunnies to feed")
 
-waffle = input("what was your breakfast today/n")
+waffle = input("what was your breakfast today\n")
 
-print(waffle , s are awesome)
+print(waffle , "s are a great food")
 
-input()
+violet = input("what is your favorite color\n")
 
-print(yourfavoritecolor)
+print("Really" , violet , "thats fun")
 
-input()
+UCAS = input()
 
 print(whatistheschoolsname)
 
