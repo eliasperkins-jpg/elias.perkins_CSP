@@ -34,3 +34,36 @@ print(num1 * num2) #Multiplication
 print(num1 // num2) #Exponents
 print(num1 ** num2) #Intiger Division
 print(num1 % num2) #Modulo (remainder)
+
+    # an intiger can hold any whole number
+    #floats can hold any decimal
+
+    #alt equations
+
+num1 = 12
+num1 =num1+  num2
+num2 = 4
+num3 = 7
+num1 += num2
+print(num1) #Addition
+num1 -= num2
+print(num1) #Subtraction
+num1 /= num2
+print(num1) #Division
+num1 *= num2
+print(num1) #Multiplication
+num1 **= num2
+print(num1) #Exponents
+num1 //= num2
+print(num1) #Intiger Division
+num1 %= num2
+print(num1) #Modulo (remainder)
+
+num1 -= num2
+num1 += num2
+
+print("3*5**2/15)-(5-2**2)=" , (3*5**2/15)-(5-2**2))
+num1 = float (input("give me a number\n7"))
+num2 = int (input("give me a number\n"))
+
+print(round(num1, 0)) #1. What needs rounded 2. How many decimals
