@@ -1,19 +1,21 @@
     #EP 6th Expressions Practice
 
+
+
 excome = 4000
-exoceries = 500
+exoceries = 250
 exnt = 1900
-extertainment = 240
+exilities = 580
+exs = 160
 
-exvings = income * .1
-extertainment + groceries = cost
-exx = cost * .07
-exop_cost = tax + cost
+exvings = excome * .1
+exst = exilities + exoceries
+exx = exst * .07
+exop_cost = exx + exst
 
-exmainder = income - (shop_cost + rent + savings)
-
-print(f"Example You have =" , remainder:.2)
-    #EP 6th Expressions Practice
+exvings = excome * .1
+exst = exilities + exoceries + exs
+exop_cost = exs + exst
 
 exmainder = excome - (exop_cost + exnt + exvings)
 
