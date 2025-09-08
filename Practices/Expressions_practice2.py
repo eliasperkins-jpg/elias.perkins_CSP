@@ -12,18 +12,8 @@ exop_cost = tax + cost
 
 exmainder = income - (shop_cost + rent + savings)
 
-print(f"Your monthly usage is=" , remainder:.2)
+print(f"Example You have =" , remainder:.2)
     #EP 6th Expressions Practice
-
-excome = 4000
-exoceries = 250
-exnt = 1900
-exilities = 580
-exs = 160
-
-exvings = excome * .1
-exst = exilities + exoceries + exs
-exop_cost = exs + exst
 
 exmainder = excome - (exop_cost + exnt + exvings)
 
