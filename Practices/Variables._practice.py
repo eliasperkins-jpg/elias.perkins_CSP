@@ -38,4 +38,4 @@ print("You currently are" , fivehundred , "years old")
 
 math = input("what is your favorite class?\n")
 
-print("I like" , math , "too")
+print("I like" , math , "class too")
