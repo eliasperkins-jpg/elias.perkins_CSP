@@ -67,3 +67,5 @@ num1 = float (input("give me a number\n7"))
 num2 = int (input("give me a number\n"))
 
 print(round(num1, 0)) #1. What needs rounded 2. How many decimals
+
+#debugging is fixing problems in my code.
