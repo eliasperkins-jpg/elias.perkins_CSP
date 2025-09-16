@@ -1,6 +1,11 @@
     #EP 6th Expressions Practice
 
-
+def calculate(type):
+    print(f"Your monthly {type} is")
+    return float(input())
+def add(type):
+    print(f"You're calculating tax for {type}")
+    return float(input())
 
 excome = 4000
 exoceries = 250
@@ -21,28 +26,20 @@ exmainder = excome - (exop_cost + exnt + exvings)
 
 print(f"example you have {exmainder:.2f} left")
 
-def calculate(solution):
-    print("Your monthly income is")
-    return float(input())
+income = calculate("income")
+groceries = calculate("groceries")
+rent = calculate("rent")
+utilities = calculate("utilities")
+gas = calculate("gas")
 
-
-
-
-
-
-
-
-
-
-
-
-
+gtax = add("groceries")
+rtax = add("rent")
+utax = add("utilities")
+gatax = add("gas")
 
 savings = income * .1
-cost = utilities + groceries + gas
-tax = cost * .07
-shop_cost = tax + cost
 
-remainder = income - (shop_cost + rent + savings)
+
+remainder = income - (gtax + rtax + utax + gatax)
 
 print(f"You have {remainder:.2f} left")
