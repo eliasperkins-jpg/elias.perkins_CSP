@@ -1,7 +1,7 @@
 # EP 6th Functions Notes
 
 #What a function is
-int = random(1)
+import random
 
 name =input("What is your name\n")
 print(f"Hello {name}!")
