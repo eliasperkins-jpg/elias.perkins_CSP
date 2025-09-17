@@ -4,8 +4,8 @@ def calculate(type):
     print(f"Your monthly {type} is")
     return float(input())
 def add(type):
-    print(f"You're calculating tax for {type}")
-    return float(input())
+        print(f"You're calculating tax for {type} (please put down the name of the variable to calculate it)")
+        return float(input())
 
 excome = 4000
 exoceries = 250
@@ -40,6 +40,6 @@ gatax = add("gas")
 savings = income * .1
 
 
-remainder = income - (gtax + rtax + utax + gatax)
+remainder = income - (gtax + rtax + utax + gatax + groceries + rent + utilities + gas)
 
 print(f"You have {remainder:.2f} left")
