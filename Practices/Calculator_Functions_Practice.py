@@ -4,8 +4,13 @@ def calculate(type):
     print(f"Your monthly {type} is")
     return float(input())
 def add(type):
-        print(f"You're calculating tax for {type} (please put down the name of the variable to calculate it)")
-        return float(input())
+    gtax = groceries * .7
+    rtax = add("rent")
+    utax = add("utilities")
+    gatax = add("gas")
+ 
+    print(f"You're calculating tax for {type}")
+
 
 excome = 4000
 exoceries = 250
