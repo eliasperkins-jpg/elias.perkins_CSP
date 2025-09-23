@@ -65,3 +65,5 @@ while True:
     else:
         print("DUCKY")
         x +=1
+
+    #an itteration is one instance not a loop 
