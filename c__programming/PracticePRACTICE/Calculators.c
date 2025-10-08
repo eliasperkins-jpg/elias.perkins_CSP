@@ -2,12 +2,13 @@
 #include <stdio.h>
 #include <math.h>
 
-char name[] = "Elias";
-char eyes[] = "Hazel";
-char breakthoufast[] = "None At All";
-char color[] = "Somewhere between green and blue";
-char ucas[] = "UCAS";
-char math[] = "Math";
+int base_income;
+int groceries;
+int rent;
+int travel_expense;
+int utilities;
+
+
 
 float gpa = 3.5;
 int seven = 7;
@@ -15,7 +16,16 @@ int year = 2025;
 int age = 15;
 
 int main(){
-    printf("My name is %s \n", name);
+    printf("What is your base income?");
+    scanf("%d", &base_income);
+    scanf("%d", &rent);
+    scanf("%d", &groceries);
+    scanf("%d", &travel_expense);
+    scanf("%d", &utilities);
+
+    float taxes = (14.5 * rent) ;
+    
+printf("My name is %s \n", name);
     printf("My age is %d \n", age);
     printf("My eye color is is %s \n", eyes);
     printf("My school is %s \n", ucas);
