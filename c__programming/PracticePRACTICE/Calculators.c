@@ -8,11 +8,6 @@ int rent;
 int travel_expense;
 int utilities;
 
-float gpa = 3.5;
-int seven = 7;
-int year = 2025;
-int age = 15;
-
 int main(){
     printf("What is your base income?");
     scanf("%d", &base_income);
@@ -27,9 +22,12 @@ int main(){
 
     int twt = groceries + rent + travel_expense + utilities;
     float taxes = 0.14 * twt;
-    savings = 0.1 * base_income
+    float combined = twt + taxes;
+    float savings = 0.1 * base_income;
+    
 
-    printf("you should be saving about" %d \n savings)
+    printf("You should be saving about" %f \n, savings);
+    printf("Your overall expense should be" %f \n, combined);
     
     return 0;
 }
