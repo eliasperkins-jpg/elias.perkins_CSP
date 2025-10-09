@@ -29,7 +29,7 @@ int main(){
     float taxes = 0.14 * twt;
     savings = 0.1 * base_income
 
-    printf("you should be saving about" %d )
+    printf("you should be saving about" %d \n savings)
     
     return 0;
 }
