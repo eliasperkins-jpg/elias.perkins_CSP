@@ -24,10 +24,11 @@ int main(){
     float taxes = 0.14 * twt;
     float combined = twt + taxes;
     float savings = 0.1 * base_income;
-    
+    float spending = base_income - combined + savings;
 
-    printf("You should be saving about" %f \n, savings);
-    printf("Your overall expense should be" %f \n, combined);
+    printf("You should be saving about %f\n", savings);
+    printf("Your overall expense should be %f\n", combined);
+    printf("You can spend %f\n", spending);
     
     return 0;
 }
