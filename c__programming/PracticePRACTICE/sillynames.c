@@ -8,7 +8,9 @@ int main(void){
     char left[] = <3<3<3<3<3<3<3; 
     char right[] =E>E>E>E>E>E>E>; 
 
-    print()
+    printf("Tell me your name: ");
+    scanf("%s", name);
+    
     strcat ()
 
     return 0;
