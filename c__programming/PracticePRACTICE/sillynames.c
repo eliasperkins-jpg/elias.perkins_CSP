@@ -4,14 +4,18 @@
 
 int main(void){
 
-    char name[439875498766];
-    char left[] = <3<3<3<3<3<3<3; 
-    char right[] =E>E>E>E>E>E>E>; 
+    char name[100];
+    char left[] = "<3<3<3<3<3<3<3"; 
+    char right[] = "E>E>E>E>E>E>E>"; 
+    char decorum[300];
 
     printf("Tell me your name: ");
     scanf("%s", name);
     
-    strcat ()
+    strcpy(decorum, left);
+    strcat(decorum, name);
+    strcat(decorum, right);
 
+    printf("%s\n", decorum)
     return 0;
 }
