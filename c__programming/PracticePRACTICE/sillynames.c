@@ -16,6 +16,6 @@ int main(void){
     strcat(decorum, name);
     strcat(decorum, right);
 
-    printf("%s\n", decorum)
+    printf("%s\n", decorum);
     return 0;
 }
