@@ -15,7 +15,7 @@ int main(void){
     }else if (times>= 10){ 
         printf("It's noon!\n");
     }else
-        printf("Good MORNING! :(\n");
+        printf("Good MORNING!\n");
 
     return 0;
 
