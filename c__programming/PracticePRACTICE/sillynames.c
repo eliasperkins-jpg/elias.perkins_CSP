@@ -5,23 +5,11 @@
 int main(void){
 
     char name[439875498766];
-    char last_name[25]; 
-    char full_name[1000]; 
+    char left[] = <3<3<3<3<3<3<3; 
+    char right[] =E>E>E>E>E>E>E>; 
 
-    name[2] = 'j';
-
-    printf("Please tell me your last name: \n");
-    scanf("%s", last_name);
-
-    strcat(full_name, " ");
-    printf("[%s]", full_name);
-    strcat(full_name, last_name);
-    printf("[%s]", full_name);
-
-    strcmp(last_name, "Barson");
-
-    printf("%zu\n", strlen(full_name));
-    printf("%zu\n", sizeof(full_name));
+    print()
+    strcat ()
 
     return 0;
 }
