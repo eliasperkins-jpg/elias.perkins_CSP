@@ -6,7 +6,7 @@
 int main(void){
 
     int nums[] ={4,265,676,3,5,68};
-    char candy[20][5] = {"Skiddles", "Reeses", "Twix", "KitKat"};
+    char candy[5][20] = {"Skiddles", "Reeses", "Twix", "KitKat"};
 
     for(int x = 0; x < 11; x++){
         printf("%d\n", nums[x]);
