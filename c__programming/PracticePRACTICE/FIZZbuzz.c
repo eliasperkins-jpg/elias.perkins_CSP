@@ -9,29 +9,25 @@ int main(void){
     int i = 1;
 
     while(i < 51){
-        if i % 3 == 0 and i % 5 == 0++ 
-        printf("Duck\n");
-        count++;
+        i++;
+        if(1 % 15){
+            
+            printf("Fizzbuzz\n");
+            
+        }else if(i % 5){
+            
+            printf("buzz\n");
+            
+        }else if(i % 3){
+            
+            printf("fizz\n");
+            
+        }else{
+            
+            printf("%d\n", num);
+        } 
     }
-//
 
 
-
-
-/*
-
-i = 1
-
-while i < 51:
-    if i % 3 ==0 and i % 5 == 0:
-        print(f"{i} FIZZ BUZZZ")
-    elif i % 3 == 0:
-        print(f"{i} FIZZ")
-    elif 1 % 5 == 0:
-        print(f"{i} is BUZZZ")
-    else:
-        print(i)
-
-    i += 1
-
-*/
+    return 0;
+}
