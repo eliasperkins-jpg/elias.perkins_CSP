@@ -10,6 +10,18 @@ int travel_expense;
 int utilities;
 int carry;
 
+int add(int spending, int base_income){
+
+    int percentage = (spending / base_income) * 100;
+
+    return percentage;
+
+    printf("You should be saving about %f\n", savings);
+    printf("Your overall expense should be %f\n which is %d\n", combined, percentage);
+    printf("You can spend %f\n", spending);
+    
+    return 0;
+}
 int main(){
     printf("What is your base income?");
     scanf("%d", &base_income);
@@ -28,9 +40,7 @@ int main(){
     float savings = 0.1 * base_income;
     float spending = base_income - combined + savings;
 
-    printf("You should be saving about %f\n", savings);
-    printf("Your overall expense should be %f\n", combined);
-    printf("You can spend %f\n", spending);
-    
+
+    add("");
     return 0;
 }
