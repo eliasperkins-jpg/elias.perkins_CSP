@@ -8,6 +8,7 @@ int groceries;
 int rent;
 int travel_expense;
 int utilities;
+int carry;
 
 int main(){
     printf("What is your base income?");

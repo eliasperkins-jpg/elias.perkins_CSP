@@ -17,7 +17,7 @@ int main(void){
     }else if (age >= 6){
         printf(" you can go to school! :(\n");
     }else {
-        printf(" GET OFF OF THE COMPUTER BILLY! :(\n");
+        printf(" GET OFF OF THE COMPUTER LILLY! :(\n");
     }
 
     return 0;
